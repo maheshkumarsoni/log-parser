@@ -1,0 +1,21 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "description": "## This application reads a log file, counts total page views and unique views per page, and outputs the results in descending order of visits.",
+  "main": "src/logParser",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "tsc",
+    "start": "npm run build && node dist/logParser"
+  },
+  "author": "MaheshKumar Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
